@@ -49,13 +49,46 @@ body{
 }
 .linha{
     display:flex;
-    column-gap: 10px;
+    justify-content: space-between;
+    width: 85%;
+
+
+    
 }
 .icon1{
-    width: 20px;
-    height: 30px;
+    width: 15px;
+    height: 20px;
     }
 .icon2{
 width: 25px;
 height: 22px;
+}
+.linha1{
+    display: flex;
+}
+.linha2{
+    display: flex;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.days{
+    color: hsl(215, 32%, 27%);
+    font-weight: bold;
+}
+.faixa{
+    margin-top: 40px;
+    width: 85%;
+}
+.avatar{
+    width: 30px;
+    height: 30px;   
+}
+.create{
+    display:flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
 }

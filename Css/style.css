@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&display=swap');
 
-body{
+body {
     font-family: "outfit";
     background-color: hsl(217, 54%, 11%);
     display: flex;
@@ -8,15 +8,50 @@ body{
     justify-content: center;
     padding: 80px 0 0 0;
 }
-.img{
+
+.img {
     height: 400px;
-    width: 380px; 
+    width: 380px;
     border-radius: 10px;
+    transition: 800ms;
 }
-.img:hover{
-   
+
+.img:hover {
+    filter: opacity(30%);
+    transition: 800ms;
 }
-.card{
+
+.div:hover olho {
+    display: block;
+    transition: 800ms;
+}
+
+.div {
+    background-color: hsl(178, 100%, 50%);
+    width: 380px;
+    height: 400px;
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    transition: 800ms;
+}
+
+.card2:hover div {
+    display: block;
+    transition: 800ms;
+}
+
+.olho {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -210px;
+    width: 50px;
+    display: none;
+    height: 40px;
+    transition: 800ms;
+}
+
+.card {
     background-color: hsl(216, 50%, 16%);
     height: 700px;
     width: 450px;
@@ -25,67 +60,82 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 20px 0 0 0px;
-    
- 
+    transition: 800ms;
+
+
 }
-.titulo{
+
+.titulo {
     color: white;
     font-weight: bold;
     transition: 500ms;
 }
-.titulo:hover{
+
+.titulo:hover {
     color: hsl(178, 100%, 50%);
     transition: 500ms;
 }
-.text{
+
+.text {
     color: hsl(215, 32%, 27%);
     font-size: 20px;
     font-weight: bold;
     transition: 500ms;
 }
-.text:hover{
+
+.text:hover {
     color: hsl(178, 100%, 50%);
     transition: 500ms;
 }
-.linha{
-    display:flex;
+
+.linha {
+    display: flex;
     justify-content: space-between;
     width: 85%;
 
 
-    
+
 }
-.icon1{
+
+.icon1 {
     width: 15px;
     height: 20px;
-    }
-.icon2{
-width: 25px;
-height: 22px;
 }
-.linha1{
+
+.icon2 {
+    width: 25px;
+    height: 22px;
+}
+
+.linha1 {
     display: flex;
 }
-.linha2{
+
+.linha2 {
     display: flex;
 }
-.eth{
+
+.eth {
     color: hsl(178, 100%, 50%);
 }
-.days{
+
+.days {
     color: hsl(215, 32%, 27%);
     font-weight: bold;
 }
-.faixa{
+
+.faixa {
     margin-top: 40px;
     width: 85%;
 }
-.avatar{
+
+.avatar {
     width: 30px;
-    height: 30px;   
+    height: 30px;
 }
-.create{
-    display:flex;
+
+.create {
+    display: flex;
     flex-direction: row;
     column-gap: 10px;
     margin-top: 20px;

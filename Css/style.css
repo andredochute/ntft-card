@@ -21,13 +21,10 @@ body {
     transition: 800ms;
 }
 
-.div:hover olho {
-    display: block;
-    transition: 800ms;
-}
+
 
 .div {
-    background-color: hsl(178, 100%, 50%);
+    
     width: 380px;
     height: 400px;
     display: none;
@@ -37,6 +34,7 @@ body {
 }
 
 .card2:hover div {
+    background-color: hsl(178, 100%, 50%);
     display: block;
     transition: 800ms;
 }
